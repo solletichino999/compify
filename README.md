@@ -14,7 +14,7 @@ This addon was originally created by **Nathan Vegdahl** and **Ian Hubert**. With
 
 
 
-## 🙌 Support Ian Hubert
+## Support Ian Hubert
 
  **Subscribe to Ian’s Patreon:**  
 [https://www.patreon.com/IanHubert](https://www.patreon.com/IanHubert)
@@ -166,13 +166,13 @@ Access the Compify menu in the **Scene Properties** (or popup panel/UI location)
 
 ---
 
-## ✨ Features Added in This Fork
+## Features Added in This Fork
 
 This fork expands the original Compify with **quality-of-life improvements** and **new compositing tools**.
 
 ---
 
-### 🔧 Preferences & Shortcuts
+### Preferences & Shortcuts
 
 - Customizable keyboard shortcut to open the Compify panel
 - Auto-update support:
@@ -181,7 +181,7 @@ This fork expands the original Compify with **quality-of-life improvements** and
 
 ---
 
-### 🪞 Reflections System
+### Reflections System
 
 Tools for compositing **reflections** directly into your scenes.
 
@@ -213,21 +213,21 @@ Reflection controls include:
 
 ---
 
-## 🧰 Requirements
+## Requirements
 
 - **Blender Tested 4.0.0, 4.2.0(12), 4.3.2, 4.5.0, 5.0.0**  
   
 
 ---
 
-## 📄 License
+## License
 
 Licensed under the **GNU General Public License v2.0**  
 See [LICENSE.md](./LICENSE.md) for full details.
 
 ---
 
-## 🤝 Contributing
+## Contributing
   
 I'm very open to feedback and collaboration on this fork!
 
