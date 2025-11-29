@@ -215,7 +215,7 @@ Reflection controls include:
 
 ## Requirements
 
-- **Blender Tested 4.0.0, 4.2.0(12), 4.3.2, 4.5.0, 5.0.0**  
+- **Blender Tested 4.0.0, 4.2.0(12), 4.3.2, 4.5.0, 5.0.0 (alpha)**  
   
 
 ---
