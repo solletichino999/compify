@@ -30,7 +30,7 @@ bl_info = {
     "name": "Compify",
     "version": (0, 2, 2),
     "author": "Nathan Vegdahl, Ian Hubert, mr. robot",
-    "blender": (5, 1, 0),
+    "blender": (4, 0, 0),
     "description": "Do compositing in 3D space with selective reflections.",
     "location": "Scene properties",
     # "doc_url": "",
