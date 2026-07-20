@@ -28,9 +28,9 @@
 #
 bl_info = {
     "name": "Compify",
-    "version": (0, 2, 1),
+    "version": (0, 2, 2),
     "author": "Nathan Vegdahl, Ian Hubert, mr. robot",
-    "blender": (4, 0, 0),
+    "blender": (5, 1, 0),
     "description": "Do compositing in 3D space with selective reflections.",
     "location": "Scene properties",
     # "doc_url": "",
@@ -621,6 +621,8 @@ def create_compify_material(name, camera, footage):
         # For Blender 4.3+
         if hasattr(mat, 'shadow_mode'):
             mat.shadow_mode = 'HASHED'
+        elif hasattr(mat, "surface_render_method"):
+            mat.surface_render_method = 'DITHERED' # hashed transparency in Eevee‑Next
 
     # Clear all existing nodes
     for node in mat.node_tree.nodes:
