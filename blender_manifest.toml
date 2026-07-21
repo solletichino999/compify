@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "compify"
+version = "0.2.2"
+name = "Compify"
+tagline = "Do compositing in 3D space with selective reflections"
+maintainer = "Nathan Vegdahl, Ian Hubert, mr. robot"
+type = "add-on"
+
+website = "https://github.com/mdreece/compify"
+tags = ["Compositing"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-2.0-or-later"]
+
+[permissions]
+files = "Loads camera footage and saves output footage"

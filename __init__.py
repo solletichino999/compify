@@ -1995,7 +1995,7 @@ class CompifyBake(bpy.types.Operator):
             and context.scene.compify_config.camera != None \
             and context.scene.compify_config.geo_collection != None \
             and len(context.scene.compify_config.geo_collection.all_objects) > 0 \
-            and compify_mat_name(context) in bpy.data.materials
+            and compify_mat_name(context) in bpy.data.materials \
             and MAIN_NODE_NAME in bpy.data.materials[compify_mat_name(context)].node_tree.nodes
 
     def post(self, scene, context=None):
